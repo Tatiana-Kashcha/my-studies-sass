@@ -1,0 +1,17 @@
+.box {
+    width: 500px;
+    // padding: 10px;
+    margin: 0 auto;
+    background-color: $animate-box-color;
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+    overflow: hidden;
+
+
+    &:not(:last-child) {
+        margin-bottom: 300px;
+    }
+}

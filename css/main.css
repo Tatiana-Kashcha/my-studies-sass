@@ -53,8 +53,8 @@ img {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .container {
@@ -148,4 +148,17 @@ img {
   position: absolute;
   left: 0;
   bottom: -1px;
+}
+
+.box {
+  width: 500px;
+  margin: 0 auto;
+  background-color: rgb(84, 161, 84);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.box:not(:last-child) {
+  margin-bottom: 300px;
 }/*# sourceMappingURL=main.css.map */
