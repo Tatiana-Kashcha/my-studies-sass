@@ -77,6 +77,21 @@ img {
   margin: -1px;
 }
 
+/* Логотип */
+.logo {
+  color: #2196F3;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo__accent {
+  color: #000000;
+}
+
 /* header */
 .page-header {
   border-bottom: 1px solid #188CE8;
