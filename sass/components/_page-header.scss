@@ -1,7 +1,7 @@
 /* header */
 
 .page-header {
-    border-bottom: 1px solid $secondary-accent-color;
+    border-bottom: 1px solid $header-border-color;
 }
 
 .container--header {
@@ -16,5 +16,53 @@
         display: block;
         padding-top: 24px;
         padding-bottom: 25px;
+    }
+}
+
+.navigation-list {
+    list-style: none;
+
+    display: flex;
+    margin-left: 93px;
+
+    &__item:not(:first-child) {
+        margin-left: 50px;
+    }
+
+    &__link {
+        color: $title-text-color;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+
+        position: relative;
+
+        transition: color 250ms $cubic-bezier;
+    }
+
+    &__link:hover, &__link:focus {
+        color: $primary-accent-color;
+    }
+
+    &__link--current {
+        color: $primary-accent-color;
+    }
+
+    &__link--current::after {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 2px;
+        background-color: $primary-accent-color;
+        position: absolute;
+        left: 0;
+        bottom: -1px;  
     }
 }
