@@ -1,0 +1,28 @@
+body {
+    color: $primary-text-color;
+    background-color: $primary-background-color;
+    font-family: $font-family-basic;
+}
+
+/* Глобальне скидання стилів по тегам*/
+h1, h2, h3, h4, h5, h6, p, ul {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}

@@ -1,0 +1,20 @@
+/* header */
+
+.page-header {
+    border-bottom: 1px solid $secondary-accent-color;
+}
+
+.container--header {
+    display: flex;
+    align-items: center;
+}
+
+.bloc-nav {
+    display: flex;
+
+    &__logo {
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 25px;
+    }
+}
