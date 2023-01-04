@@ -1,0 +1,16 @@
+.parallax {
+    background-image: url(https://images.pexels.com/photos/164022/pexels-photo-164022.jpeg?auto=compress&cs=tinysrgb&w=600);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: auto;
+    background-color: $secondary-background-color;
+    font-size: 30px;
+    text-align: justify;
+    padding: 30px;
+}

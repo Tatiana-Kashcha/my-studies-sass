@@ -193,4 +193,21 @@ img {
   margin-bottom: 20px;
   -webkit-animation-iteration-count: 4;
           animation-iteration-count: 4;
+}
+
+.parallax {
+  background-image: url(https://images.pexels.com/photos/164022/pexels-photo-164022.jpeg?auto=compress&cs=tinysrgb&w=600);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  height: auto;
+  background-color: #F5F4FA;
+  font-size: 30px;
+  text-align: justify;
+  padding: 30px;
 }/*# sourceMappingURL=main.css.map */
