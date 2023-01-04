@@ -12,7 +12,7 @@
 
 
     &:not(:last-child) {
-        margin-bottom: 150px;
+        margin-bottom: 100px;
     }
 }
 
@@ -25,12 +25,24 @@
     letter-spacing: 0.03em;
 
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     animation-iteration-count: 4;
 }
 
-.box-title {
+.cat-title {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.cat-descr {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+
+    color: $primary-accent-color;
+    text-align: center;
+    margin-bottom: 20px;
+    animation-iteration-count: 4;
 }
