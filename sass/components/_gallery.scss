@@ -1,0 +1,20 @@
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-gallery {
+    display: inline-block;
+    transition: transform 250ms $cubic-bezier;
+}
+
+.img-gallery:hover {
+    transform: scale(200%);
+}

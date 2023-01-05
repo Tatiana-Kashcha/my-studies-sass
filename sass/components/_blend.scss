@@ -12,3 +12,18 @@
     top: 200px;
     mix-blend-mode: overlay;
 }
+
+.elipse img {
+    clip-path: ellipse(450px 200px at 580px 500px);
+    margin-bottom: 20px;
+}
+
+.circle img {
+    clip-path: circle(38%);
+    margin-bottom: 20px;
+}
+
+.polygon img {
+    clip-path: polygon(5% 5%, 100% 10%, 900% 75%, 75% 75%, 75% 100%, 60% 75%, 20% 80%);
+    margin-bottom: 20px;
+}
