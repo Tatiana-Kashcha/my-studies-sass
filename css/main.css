@@ -295,7 +295,9 @@ img {
 
 .blend h1 {
   font-size: 80px;
+  color: #000000;
   text-transform: uppercase;
   position: absolute;
-  top: 0;
+  top: 200px;
+  mix-blend-mode: overlay;
 }/*# sourceMappingURL=main.css.map */

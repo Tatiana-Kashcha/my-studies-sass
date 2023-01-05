@@ -1,12 +1,15 @@
 .blend {
     display: flex;
     justify-content: center;
+    // align-items: center;
     position: relative;
 }
 
 .blend h1 {
     font-size: 80px;
+    color: $secondary-text-color;
     text-transform: uppercase;
     position: absolute;
-    top: 0;
+    top: 200px;
+    mix-blend-mode: overlay;
 }
